@@ -4,5 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        controllers/estacion.cpp \
         main.cpp \
-        models/EstacionBD.cpp
+        models/bd.cpp
+
+HEADERS += \
+    controllers/estacion.h \
+    models/bd.h
